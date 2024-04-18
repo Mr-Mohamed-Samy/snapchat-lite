@@ -1,0 +1,74 @@
+body {
+    font-family: Helvetica Neue LT Std Roman;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFC00;
+    background-image: url(snapchat.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+    .glass{
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+  .email-label {
+    margin-bottom: 2px;
+    margin-right: 75px; 
+    font-style: bold; 
+  }
+.password-label {
+    margin-bottom: 2px;
+    margin-right: 150px; 
+    font-style: bold; 
+}
+.e-mail {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+  .password {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+
+}
+.button{
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #1f5f21; 
+  }
+  a{
+    color: darkred;
+    margin-top: 10px;
+  }
+  a:hover {
+    color: #17127d;
+  }
+  .image{
+    border-color: red;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }

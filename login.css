@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-image: url(snapchat.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: yellow;
+}
+.container{
+    color:black;
+    height:100px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.glass{
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+.button{
+    margin-bottom: 15px;
+    background-color: black;
+    border-radius: 20px;
+    padding:10px 20px;
+    color: white;
+    cursor:pointer;
+    border:none;
+}
+.para{
+    font-size:20px ;
+}
